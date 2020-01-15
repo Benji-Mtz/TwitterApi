@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+<script src="Integraciontweet.js" ></script>
+    <title>Api Tweeter</title>
+</head>
+
+<body>
+    <div class="container my-5 text-center">
+        <h1>Demo Aplication Twitter</h1>
+        <input placeholder="Omita el #" type="text" id="texto" class="form-control my-5" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+
+        <button class="btn btn-danger w-100" onclick="traer()">Obtener</button>
+        
+          <table class="table my-5">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Post</th>
+                <th scope="col">Imagenes</th>
+              </tr>
+            </thead>
+            <tbody id="contenido">
+              
+            </tbody>
+          </table>
+
+    </div>
+
+<!-- El script se carga al final de documento-->
+<script src="apitabla.js" ></script>
+</body>
+
+</html>
